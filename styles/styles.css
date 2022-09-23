@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: nino;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: nino;
+    src: url(../fonts/bpg_nino.ttf);
+}
+
+
+
+body{
+    background-color: #ffffff;
+}
+
+
+header{
+    width: 100%;
+    background-color: #000000;
+    padding: 30px;
+    opacity: 0.8;
+}
+header ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul a{
+    padding: 5px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.modelcontainer1{
+    width: 100%;
+    height: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    display: flex;   
+}
+
+    
+.about .aboutimg{
+    width: 70%;
+    height: auto;
+    background-image: url(../img/5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.abouttextbox{
+    width: 80%;
+    height: auto;
+    margin: 100px auto;
+}
+
+.model1, .model2, .model3, .model4 {
+    width: 50%;
+    margin: 10px; 
+}
+.model1, .f30{
+    background-image: url(../img/F30-Spring-Web-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;    
+}
+
+.model2, .f40{
+    background-image: url(../img/F40-Spring-Web-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+.modelcontainer2{
+    width: 100%;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;   
+}
+
+.model3, .max{
+    background-image: url(../img/segwey\ g30.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;    
+}
+
+.model4, .T15{
+    background-image: url(../img/T15-Spring-Web.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+.description1{
+    width: 100%;
+    height: 500px;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.f30, .f40, .max, .T15, .text1{
+    width: 50%;
+    height: 500px;
+}
+
+
+
+.message{
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(185, 185, 185);
+    border: 1px solid #000000;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.message:hover{
+    color: #ffffff;
+    background-color: rgb(13, 158, 0);
+    cursor: pointer;
+}
+
+.messagebox{
+    width: 300px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 1;
+}
+
+.messageboxheader{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000000;
+}
+
+.close{
+    padding: 5px 10px;
+    font-weight: 1000;
+}
+
+.messageboxmain{
+    width: 100%;
+    padding: 10px;
+}
+
+.messageboxmain input, .messageboxmain textarea{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.messageboxmain textarea{
+    resize: none;
+}
+
+.messageboxmain .send{
+    width: 100%;
+    padding: 15px;
+    background-color: #161616;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.send:hover, .close:hover{
+    cursor: pointer;
+}
+
+.send:hover{
+    background-color: #000000;
+}
+
+
+.contactbox{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adress, .mail, .phone{
+    width: 30%;
+    height: 300px;
+    margin: 15px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    
+    
+}
+
+h2, h3{
+    margin-top: 120px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h4{
+    margin-top: 20px;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+h5{
+    font-size: 18px;
+    margin: 200px auto;
+}
+
+
+p{
+    font-size: 18px;
+    text-align: center;
+}
+.abouttext{
+    margin: 200px auto;
+    text-align: center;
+}
+
+.descr1{
+    margin-left: 180px;
+    padding: 15px;
+    display: flex;
+    justify-content:flex-start
+}
+
+.owl-carousel{
+    margin-top: 50px;
+}
+
+footer{
+    width: 100%;
+    margin-top: 200px;
+    background-color: rgb(109, 247, 247);
+    
+}
+
+.social{
+    width: 20%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.social .facebook, .social .instagram {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.facebook{
+    background-image: url(../img/facebook-black.png);
+}
+
+.facebook:hover{
+    background-image: url(../img/facebook-color.png);
+    cursor: pointer;
+}
+
+.instagram{
+    background-image: url(../img/instagram-black.png);
+}
+
+.instagram:hover{
+    background-image: url(../img/instagram-color.png);
+    cursor: pointer;
+}
+
+.rights{
+    padding-top: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+
+
+/* /////////////////////////registarion///////////////////// */
+
+.registrationform, .aboutbackground{
+    background-image: url(../img/two-electric-kick-scooters-e-scooter-parked-sidelines-road.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.registration{
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 40%;
+    margin: 100px auto;
+    padding: 4%;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+.registration input{
+    width: 100%;
+    height: 30px;
+    margin: 30px auto;
+    background-color: #000000;
+    color: #000000;
+    border-radius: 15px;
+    box-shadow: none;    
+}
+
+.registration p{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+:placeholder-shown{
+    text-align: center;
+}
+
